@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b19bb8f200.js" crossorigin="anonymous"></script>
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <section>
+        <div class="text-left">
+            <div class="logo">
+                <img src="img/Vector.svg" alt="Logo Alura, letra A minúscula de color azul.">
+                <br/>
+                <h1>Encriptador de texto</h1>
+            </div>
+            <div class="text-1">
+                <div class="contenttextI">
+                    <textarea name="texto1" id="mensaje" type="text" class="textoInput" placeholder="Ingrese el texto aquí" cols="30" rows="25"></textarea>
+                </div>
+                <p><i class="fa-solid fa-circle-exclamation"></i> Sólo letras minúsculas sin acentos</p>
+                <div class="contbtns">
+                    <div class="cbtnen">
+                        <button type="button" class="btnen" onclick="btnEncriptar()">Encriptar</button>
+                    </div>
+                    <div class="cbtndes">
+                        <button type="button" class="btndes" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right">
+            <div class="minitext">
+                <div class="contenttextD" id="contimg">
+                    <h1>Resultado:</h1>
+                    <textarea type="text" name="texto2" id="mensaje2" class="textoInputArea" cols="30" rows="30" readonly></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3 class="desarrollo">Desarrollado por:</h3>
+        <h3 class="name">Gabriela Díaz</h3>
+        <a href="https://github.com/gabriela-diaz" class="as"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/noni.bonito/" class="as"><i class="fa-brands fa-instagram"></i></a>
+        <h3 class="email">Email: gabriela.diazgrc@gmail.com</h3>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
